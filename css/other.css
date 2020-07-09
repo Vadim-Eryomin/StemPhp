@@ -1,0 +1,45 @@
+/* styles for other pages */
+.login{
+    text-align: center; 
+    grid-area: cont;
+    display: table;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, .125);
+    border-width: 1px;
+    border-style: solid;
+}
+input[type="text"], input[type="date"], input[type="time"], input[type="password"] {
+    width: 177px;
+    height: 24px;
+}
+select{
+    width: 182px;
+    height: 28px;
+}
+.alert-success{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alert-warning{
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*---------------------------------*/
+
+/*
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8em;
+*/

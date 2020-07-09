@@ -1,0 +1,16 @@
+/* styles especially for vk news page  */
+.vk-card{
+    border: 1px solid rgba(0, 0, 0, .125);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    display: table;
+}
+.vk-card-text{
+    overflow: hidden;
+    text-align: center;
+    margin: 15px;
+    width: 70vw;
+    margin: 15px auto 0;
+}
+/*---------------------------------*/

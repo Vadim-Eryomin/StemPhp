@@ -1,0 +1,60 @@
+/* styles for cards and their containers */
+.card-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: calc(98vw - 170px);
+    height: calc(95vh - 100px);
+    overflow: auto;
+}
+.card{
+    height: 350px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    display: table;
+}
+.card-inner{
+    display: grid;
+    grid-template-areas: 
+    "title"
+    "image"
+    "text"
+    "button";
+    grid-template-rows: 50px 200px 1fr 50px;
+}
+.card-title{
+    text-align: center;
+    margin-bottom: 10px;
+    grid-area: title;
+}
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    grid-area: image;
+}
+.card-text{
+    overflow: hidden;
+    text-align: center;
+    margin: 15px;
+    grid-area: text;
+}
+.card-button{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    height: 40px;
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    text-align: center;
+    grid-area: button;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+/*---------------------------------*/
